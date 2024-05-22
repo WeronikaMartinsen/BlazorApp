@@ -1,0 +1,65 @@
+# Ignore .NET Core build results
+bin/
+obj/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Ignore user-specific files
+.vscode/
+.vscode/*
+
+# Ignore build outputs
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore logs
+*.log
+Logs/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.bak
+*.swp
+*.swo
+*.swn
+*.kate-swp
+*.gnucash
+*.gnc
+*.log.*
+
+# Ignore Rider project files
+.idea/
+
+# Ignore JetBrains Rider, IDE specific
+.idea/
+.idea/*
+
+# Ignore Visual Studio Code workspace files
+*.code-workspace
+
+# Ignore npm package directories (if any)
+node_modules/
+npm-debug.log
+
+# Ignore Yarn lock file
+yarn.lock
+
+# Ignore .NET user secrets
+secrets.json
